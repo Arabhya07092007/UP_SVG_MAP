@@ -1,0 +1,173 @@
+/* #map-svg {
+    width: 80%;
+    padding-left: 80px;
+    filter: drop-shadow(-18px 4px 0px rgba(14, 47, 89, 0.21));
+}
+
+#map-svg path {
+    fill: #2d507d;
+    stroke-width: 0px;
+    cursor: pointer;
+}
+
+#map-svg path:hover {
+    fill: #ee7d1f;
+}
+#map-svg .selected {
+    fill: #ee7d1f;
+} */
+
+
+#map-svg {
+    width: 80%;
+        padding-left: 80px;
+        filter: drop-shadow(-18px 4px 0px rgba(14, 47, 89, 0.21));
+    }
+    #map-svg path{
+        fill:#2d507d;
+        stroke-width:0px; 
+        cursor: pointer;
+    }
+    #map-svg path:hover{fill:#ee7d1f;}
+    #map-svg .selected {fill:#ee7d1f;}
+    #map-section .title{ text-align:center;}
+    #map-section .title::after{ content:url(../images/headingborder.png); height:0px; right:0px; left:0px; margin:0px auto;}
+    #map-section .title h1{ color:#fff;}
+    #tooltip {
+      dominant-baseline: hanging;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 5pt;
+      color:#003c72;
+    }
+    
+    #Saharanpur {fill: #edaaed;}
+    #Shamali {fill: #ff9e1c;}
+    #Muzaffarnagar {fill: #d51b31;}
+    #Bijnaur {fill: #7527ff;}
+    #Meerut {fill: #ffff19;}
+    #Baghpat {fill: #91f623;}
+    #Ghaziabad {fill: #732600;}
+    #Hapur {fill: #ff45e6;}
+    #Jyotiba\ Phule\ Nagar {fill: #2dfff3;}
+    #Moradabad {fill: #c9f41e;}
+    #Gautam\ Budh\ Nagar {fill: #058907;}
+    #Bulandshahr {fill: #ebb052;}
+    #Sambhal {fill: #e88d84;}
+    #Rampur {fill: #ce7e76;}
+    #Aligarh {fill: #a5dbe0;}
+    #Badaun {fill: #a85a70;}
+    #Bareilly {fill: #f0f2ac;}
+    #Mathura {fill: #f0f2ac;}
+    #Agra {fill: #d3c9ae;}
+    #Hathras {fill: #e85fdb;}
+    #Kanshi\ Ram\ Nagar {fill: #efe39b;}
+    #Etah {fill: #ebc8eb;}
+    #Shahjahanpur {fill: #ebc87a;}
+    #Pilibhit {fill: #6099f7;}
+    #Firozabad {fill: #ee924f;}
+    #Mainpuri {fill: #a770d7;}
+    #Sonbhadra {fill: #9ecb69;}
+    #Mirzapur {fill: #846053;}
+    #Lakhimpur {fill: #9ecb69;}
+    #Lucknow {fill: #1a73e8;}
+    #Kushinagar {fill: #6099f7;}
+    #Maharajganj {fill: #ccd5ac;}
+    #Bahraich {fill: #ee924f;}
+    #Sitapur {fill: #f1cced;}
+    #Hardoi {fill: #a5dbe0;}
+    #Barabanki {fill: #a85a70;}
+    #Farrukhabad {fill: #ee924f;}
+    #Unnao {fill: #a1e1a2;}
+    #Raebarely {fill: #e8ab59;}
+    #Kannauj {fill: #d884cd;}
+    #Kanpur\ Nagar {fill: #6099f7;}
+    #Kanpur\ Dehat {fill: #e85fdb;}
+    #Jalaun {fill: #846053;}
+    #Lalitpur {fill: #6099f7;}
+    #Jhansi {fill: #ee924f;}
+    #Etahwah {fill: #fa5757;}
+    #Auraiya {fill: #ffc107;}
+    #Hamirpur {fill: #e91e63;}
+    #Mahoba {fill: #348eb9;}
+    #Deoria {fill: #fe7267;}
+    #Banda {fill: #b5be5e;}
+    #Fatehpur {fill: #b0afaf;}
+    #Chitrakoot {fill: #7485df;}
+    #Prayagraj {fill: #96cecf;}
+    #Kaushambi {fill: #2d507d;}
+    #Pratapgarh {fill: #b58e80;}
+    #Sant\ Ravidas\ Nagar {fill: #b9b8b8;}
+    #Jaunpur {fill: #ee924f;}
+    #Chandauli {fill: #ecb1ad;}
+    #Varanasi {fill: #dddddd;}
+    #Shravasti {fill: #e7ca72;}
+    #Gonda {fill: #e6e659;}
+    #Amethi {fill: #d3c9ae;}
+    #Sultanpur {fill: #9de84c;}
+    #Ghazipur {fill: #a1e1a2;}
+    #Azamgarh {fill: #1a73e8;}
+    #Ayodhya {fill: #eff1ab;}
+    #Ballia {fill: #a0d5da;}
+    #Mau {fill: #d8d88f;}
+    #Balrampur {fill: #a85a70;}
+    #Gorakhpur {fill: #f1ddd3;}
+    #Basti {fill: #bcdb8c;}
+    #Ambedkar\ Nagar {fill: #cb97c4;}
+    #Sant\ Kabir\ Nagar {fill: #846053;}
+    #Sidharth\ Nagar {fill: #348eb9;}
+    
+    #quicklinks-wrap{ padding:25px 0px; background-color: #003c72;} 
+    .dList{position: absolute;
+    right:20px;
+    top: 10px;
+    width: 30%;
+    text-align: center; border-radius:8px;}
+    .dList .table{ background-color:#fff; box-shadow:0px 0px 15px rgba(0,0,0,.2);}
+    .dList .table > thead > tr > th {
+      text-align:center;
+      background-color: #e2eaf0;
+    color: #000;
+    }
+    .dList .table > tbody > tr > td{text-align:left;}
+    .dList .table > tbody > tr > th{text-align:center; background: #ffddb0;
+    color: #b53f06;}
+    .dList .table > tbody > tr > td, .dList .table > tbody > tr > th, .dList .table > tfoot > tr > td, .dList .table > tfoot > tr > th, .dList .table > thead > tr > td, .dList .table > thead > tr > th{ padding:5px;}
+    .dList h2{ font-size:1.3em; color:#003c72; margin:0px auto;}
+    .connect li a:before{ display:none;}
+    .connect li a{ padding-left:0px;}
+    .prernalogo{position: absolute;
+    right: 56px;
+    background-color: #572805;
+    width: 140px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+    top: -69px;
+    z-index: 255;}
+    .prernalogo img{max-width:100%;}
+    #latestnews{ position:relative; background-color:#eee;}
+    .dpt-name span{display:inline-block; font-size: 1.5em;
+    padding-top: 10px;}
+    .pd-rl0{ padding-right:0px; padding-left:0px;}
+    
+    .list {
+        position: relative;
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+    .list li {
+        position: relative;
+        line-height: 1.7em;
+        margin-bottom: 10px;
+        padding-left:24px; text-align:justify;
+    }
+    .list li:before {
+        content:"\f058";
+        font-family:FontAwesome;
+        position: absolute;
+        left: 0;
+        top: -1px;
+        color:#ff6316;
+        font-weight: 400;
+    }
